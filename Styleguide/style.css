@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: 'Raleway';
+}
+
+.example {
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.mainnav{
+  font-size: .9rem;
+  margin-left: -40px; /*to counter balance the brower padding*/
+}
+
+
+.navitem{
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.navitemlink{
+  text-decoration: none;
+}
+
+.navitemlink:visited, .navitemlink:link{
+  color: #676767;
+}
+
+
+
+
+.home a.current-home{
+  color: #0bd430;
+}
+
+.type a.current-type{
+  color: #0bd430;
+}
+
+.links a.current-links{
+  color: #0bd430;
+}
+
+
+/*main nav page */
+
+.navlink{
+  text-decoration: none;
+  padding: 1rem;
+}
+
+/*main nav page */
+header, footer {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  font-size: 2rem;
+  background-color: coral;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  font-size: 2rem;
+}
+
+
+nav, aside {
+  padding: 1em;
+}
+
+nav {
+  /*background-color: lightblue;*/
+}
+
+aside {
+  background-color: lightgreen;
+}
+
+.content {
+  padding: 1em;
+}
+
+footer {
+  align-self: flex-end;
+}
